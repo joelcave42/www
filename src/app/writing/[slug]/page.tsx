@@ -44,7 +44,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
       publishedTime,
       url: `https://harshsingh.xyz/writing/${post.slug}`,
       images: [{ url: ogImage }],
-      author: "Harsh Singh",
+      author: "Joel Cave",
     },
     twitter: {
       card: "summary_large_image",
@@ -77,7 +77,7 @@ export default (({ params }) => {
               ? `https://harshsingh.xyz${post.metadata.image}`
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
             url: `https://harshsingh.xyz/writing/${post.slug}`,
-            author: { "@type": "Person", name: "Harsh Singh" },
+            author: { "@type": "Person", name: "Joel Cave" },
           }),
         }}
       />

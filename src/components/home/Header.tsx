@@ -10,22 +10,17 @@ const socials = [
   {
     icon: <BiLogoTwitter />,
     label: "Twitter",
-    href: "https://x.com/harshhhdev",
+    href: "https://x.com/joelcave17",
   },
   {
     icon: <BiLogoGithub />,
     label: "GitHub",
-    href: "https://github.com/harshhhdev",
+    href: "https://github.com/joelcave42",
   },
   {
     icon: <BiLogoLinkedin />,
     label: "Linkedin",
-    href: "https://linkedin.com/in/harshhhdev",
-  },
-  {
-    icon: <BiLogoDiscordAlt className="mt-0.5" />,
-    label: "Discord",
-    href: "https://discord.com/users/518432133111611397",
+    href: "https://linkedin.com/in/joelcave42",
   },
 ];
 
@@ -34,9 +29,12 @@ export default () => (
     <Headshot />
     <div className="mt-6 flex items-end justify-between">
       <div>
-        <h1 className="animate-intro font-medium opacity-0">Harsh Singh</h1>
+        <h1 className="animate-intro font-medium opacity-0">Joel Cave</h1>
         <h2 className="animate-intro tracking-tight opacity-0 [animation-delay:100ms]">
-          Software and design consultant
+          Georgia Tech Computer Science Major
+        </h2>
+        <h2 className="animate-intro tracking-tight opacity-0 [animation-delay:100ms]">
+          Software Engineer Intern at Onboardfi
         </h2>
       </div>
       <div className="flex animate-intro items-center gap-x-1 opacity-0 [animation-delay:100ms]">
@@ -62,9 +60,9 @@ const Headshot = () => {
   return (
     <div className="w-fit overflow-hidden rounded-full">
       <Image
-        src="/headshot.webp"
-        width={32}
-        height={32}
+        src="/image0.jpeg"
+        width={64}
+        height={48}
         alt="My face"
         priority
         quality={100}

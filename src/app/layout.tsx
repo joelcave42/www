@@ -23,17 +23,17 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: { default: "Harsh Singh", template: "%s — Harsh Singh" },
-  creator: "Harsh Singh",
-  publisher: "Harsh Singh",
-  description: "Software and design consultant.",
-  keywords: ["Harsh Singh", "harshhhdev"],
-  authors: [{ name: "Harsh Singh", url: "https://harshsingh.xyz" }],
+  title: { default: "Joel Cave", template: "%s — Joel Cave" },
+  creator: "Joel Cave",
+  publisher: "Joel Cave",
+  description: "Georgia Tech Computer Science Major.",
+  keywords: ["Joel Cave", "harshhhdev"],
+  authors: [{ name: "Joel Cave", url: "https://harshsingh.xyz" }],
   openGraph: {
-    title: "Harsh Singh",
-    description: "Software and design consultant.",
+    title: "Joel Cave",
+    description: "Georgia Tech Computer Science Major",
     url: "https://harshsingh.xyz",
-    siteName: "Harsh Singh",
+    siteName: "Joel Cave",
     images: [
       {
         url: "https://harshsingh.xyz/og.png",
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Harsh Singh",
-    description: "Software and design consultant.",
+    title: "Joel Cave",
+    description: "Georgia Tech Computer Science Major",
     siteId: "harshhhdev",
     creator: "@harshhhdev",
     creatorId: "harshhhdev",

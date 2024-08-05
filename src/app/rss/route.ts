@@ -26,7 +26,7 @@ export const GET = async () => {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
   <rss version="2.0">
     <channel>
-        <title>Harsh Singh's Writing</title>
+        <title>Joel Cave's Writing</title>
         <link>https://harshsingh.xyz</link>
         <description>Infrequent posts about design and tech</description>
         ${itemsXml}
