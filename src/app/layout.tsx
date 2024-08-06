@@ -28,20 +28,12 @@ export const metadata: Metadata = {
   publisher: "Joel Cave",
   description: "Georgia Tech Computer Science Major.",
   keywords: ["Joel Cave", "harshhhdev"],
-  authors: [{ name: "Joel Cave", url: "https://harshsingh.xyz" }],
+  authors: [{ name: "Joel Cave", url: "https://joelcave.xyz/" }],
   openGraph: {
     title: "Joel Cave",
     description: "Georgia Tech Computer Science Major",
-    url: "https://harshsingh.xyz",
+    url: "https://joelcave.xyz/",
     siteName: "Joel Cave",
-    images: [
-      {
-        url: "https://harshsingh.xyz/og.png",
-        width: 1200,
-        height: 630,
-        alt: "",
-      },
-    ],
     locale: "en-US",
     type: "website",
   },
@@ -68,10 +60,6 @@ export const metadata: Metadata = {
     siteId: "harshhhdev",
     creator: "@harshhhdev",
     creatorId: "harshhhdev",
-    images: {
-      url: "https://harshsingh.xyz/og.png",
-      alt: "",
-    },
   },
   verification: {
     google: "VWhTtgTikPqvWIY4n2rlUj6Fe9YgkfFMEET3TM7Rce0",
@@ -79,12 +67,6 @@ export const metadata: Metadata = {
     yahoo: "yahoo",
     other: { me: ["hi.harsh@pm.me"] },
   },
-  alternates: {
-    canonical: "https://harshsingh.xyz",
-    types: { "application/rss": "https://harshsingh.xyz/rss" },
-  },
-  assets: ["https://harshsingh.xyz/assets.zip"],
-  category: "technology",
 };
 
 export default (({ children }) => (
